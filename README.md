@@ -26,7 +26,7 @@ Student trying to add a course:<br>
 ![POST - Student](test-screenshots/POST%20-%20Student.png)<br>
 ![POST - Student (2)](test-screenshots/POST%20-%20Student%20(2).png)<br>
 
-Teacher trying to add a course:<br>
+Lecturer trying to add a course:<br>
 ![POST - Lecturer](test-screenshots/POST%20-%20Lecturer.png)<br>
 ![POST - Lecturer (2)](test-screenshots/POST%20-%20Lecturer%20(2).png)<br>
 
