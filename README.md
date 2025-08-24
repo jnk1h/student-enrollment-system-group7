@@ -61,24 +61,30 @@ DELETE – Remove record
 
 # Setup Instructions
 
-1. Clone the repository:
+Clone the repository:
+
    cd student-enrollment-system-group7-version2
 
-2. Create and activate a virtual environment:
-   python -m venv venv
+Create and activate a virtual environment:
+   
    venv\Scripts\activate      
 
-3. Install dependencies:
+Install dependencies:
+
    pip install -r requirements.txt
 
-4. Apply migrations:
+Apply migrations:
+
    python manage.py makemigrations
+   
    python manage.py migrate
 
-5. Create a superuser:
+Create a superuser:
+
    python manage.py createsuperuser
 
-6. Run the development server:
+Run the development server:
+
    python manage.py runserver
 
 # Testing.
