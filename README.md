@@ -1,4 +1,87 @@
-Testing.
+# Student Enrollment System – Group 7
+# Group Members
+
+167141 – Karogo Joe Ndungu
+
+149226 – Patel Radha Shaileshkumar
+
+168869 – Kongo Tressy
+
+150769 – Kibet Yvonne
+
+120406 – Kirui Allan Kiprono
+
+119918 – Fadumo Mohamed
+
+# Project Overview
+
+This project is a Student Enrollment System built with Django REST Framework (DRF). It provides an API for managing students, courses, and enrollments, making it easy to handle academic registration processes.
+
+# Features
+
+Student Management – Add, view, update, and delete student records.
+
+Course Management – Create and manage courses offered by the institution.
+
+Enrollment Management – Enroll students into courses and track registrations.
+
+API Endpoints – RESTful endpoints for Students, Courses, and Enrollments.
+
+Data Validation – Ensures required fields are provided and relationships are valid.
+
+# Project Structure
+
+models.py – Defines Student, Course, and Enrollment models.
+
+serializers.py – Handles data validation and model-to-JSON conversion.
+
+views.py – Uses ModelViewSet for CRUD operations.
+
+urls.py – Configures routes using DRF’s DefaultRouter.
+
+# API Endpoints
+
+Using DRF routers, the following endpoints are available:
+
+Students → /students/
+
+Courses → /courses/
+
+Enrollments → /enrollments/
+
+Each endpoint supports:
+
+GET – Retrieve list or details
+
+POST – Create new record
+
+PUT/PATCH – Update record
+
+DELETE – Remove record
+
+# Setup Instructions
+
+1. Clone the repository:
+   cd student-enrollment-system-group7-version2
+
+2. Create and activate a virtual environment:
+   python -m venv venv
+   venv\Scripts\activate      
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Apply migrations:
+   python manage.py makemigrations
+   python manage.py migrate
+
+5. Create a superuser:
+   python manage.py createsuperuser
+
+6. Run the development server:
+   python manage.py runserver
+
+# Testing.
 
 Tests done using Postman.
 
